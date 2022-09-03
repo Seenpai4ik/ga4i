@@ -1,0 +1,73 @@
+body{
+	background-image: url(фон.jpg);
+	font-family: 'Rubik Moonrocks', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0 0 10px rgba(255, 0, 0, 1);
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body,main{
+	height: 100%;
+}
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+img:hover{
+	transform: scale(1.05);
+}
+li{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 50px;
+}
+.nnn{
+	background-color: rgba(124, 124, 124, 1.5);
+	color: #C100E4;
+	padding: 10px 15px;
+	margin: 5px 0px;
+	height: 100vh;
+}
+.nnn:first-child{
+	background-image: url(https://avatars.mds.yandex.net/i?id=ddfebf41936e058f71549d4d7a474619-5331946-images-thumbs&n=13);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.nnn:nth-child(2){
+	background-image: url(https://avatars.mds.yandex.net/i?id=0a7d981757ed560c6569fb0003a1102a-4339445-images-thumbs&n=13);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.ggg-item_title{
+	margin: 27px;
+	margin-left: 27px;
+	padding: 10px 15px;
+
+}
+.nnn-item_desc{
+
+	padding: 10px 15px;
+}
+li{
+	text-decoration: none;
+}
+.qqq{
+	font-size: 25px;
+}
+.iii{
+	font-size: 25px;
+}
+.ooo{
+	font-size: 25px;
+}
